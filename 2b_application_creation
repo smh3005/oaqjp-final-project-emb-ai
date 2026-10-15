@@ -1,0 +1,18 @@
+Script started on 2026-10-15 13:00:45-04:00 [TERM="xterm-color" TTY="/dev/pts/1" COLUMNS="100" LINES="12"]
+[?2004h]0;theia@theiadocker-shrutihanega: /home/project/final_project[01;32mtheia@theiadocker-shrutihanega[00m:[01;34m/home/project/final_project[00m$ [7mpython3[mpython3
+[?2004lPython 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> print(emotion_detector('I am really mad about this'))
+{'anger': 0.6674731, 'disgust': 0.022848725, 'fear': 0.09749009, 'joy': 0.011863918, 'sadness': 0.1953058}
+>>> exit()
+[?2004h]0;theia@theiadocker-shrutihanega: /home/project/final_project[01;32mtheia@theiadocker-shrutihanega[00m:[01;34m/home/project/final_project[00m$ [7mpython3 test_emotion_detection.py[mpython3 test_emotion_detection.py
+[?2004l...
+----------------------------------------------------------------------
+Ran 3 tests in 0.324s
+
+OK
+[?2004h]0;theia@theiadocker-shrutihanega: /home/project/final_project[01;32mtheia@theiadocker-shrutihanega[00m:[01;34m/home/project/final_project[00m$ [7mexit[mexit
+[?2004lexit
+
+Script done on 2026-10-15 13:02:23-04:00 [COMMAND_EXIT_CODE="0"]
