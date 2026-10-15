@@ -1,0 +1,8 @@
+Script started on 2026-10-15 13:30:00-04:00 [TERM="xterm-color" TTY="/dev/pts/1" COLUMNS="100" LINES="12"]
+[?2004h]0;theia@theiadocker-shrutihanega: /home/project/final_project[01;32mtheia@theiadocker-shrutihanega[00m:[01;34m/home/project/final_project[00m$ [7mcd /home/project/final_project[mcd /home/project/final_project
+[?2004l[?2004h]0;theia@theiadocker-shrutihanega: /home/project/final_project[01;32mtheia@theiadocker-shrutihanega[00m:[01;34m/home/project/final_project[00m$ [7mpython3 -c "from EmotionDetection.emotio[m[7mn[m[7mn_detection import emotion_detector; print(emotion_detector('I am very angry'))"[m[Apython3 -c "from EmotionDetection.emotion_detection import emotion_detector; print(emotion_detector('I am very angry'))"
+[?2004l{'anger': 0.97299534, 'disgust': 0.007920562, 'fear': 0.021403823, 'joy': 0.0111511685, 'sadness': 0.047718644, 'dominant_emotion': 'anger'}
+[?2004h]0;theia@theiadocker-shrutihanega: /home/project/final_project[01;32mtheia@theiadocker-shrutihanega[00m:[01;34m/home/project/final_project[00m$ [K[7mexit[mexit
+[?2004lexit
+
+Script done on 2026-10-15 13:30:43-04:00 [COMMAND_EXIT_CODE="0"]

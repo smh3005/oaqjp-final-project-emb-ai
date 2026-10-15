@@ -3,7 +3,7 @@ import requests
 
 
 def emotion_detector(text_to_analyze):
-    """Analyze text and return emotion scores and dominant emotion."""
+    """Analyze text and handle unsuccessful API responses."""
 
     url = (
         "https://sn-watson-emotion.labs.skills.network/"
@@ -28,7 +28,7 @@ def emotion_detector(text_to_analyze):
         timeout=30
     )
 
-    if response.status_code != 200:
+    if response.status_code == 400:
         return {
             "anger": None,
             "disgust": None,
@@ -38,8 +38,10 @@ def emotion_detector(text_to_analyze):
             "dominant_emotion": None
         }
 
-    emotions = response.json()["emotionPredictions"][0]["emotion"]
+    if response.status_code != 200:
+        return None
 
+    emotions = response.json()["emotionPredictions"][0]["emotion"]
     dominant_emotion = max(emotions, key=emotions.get)
 
     return {

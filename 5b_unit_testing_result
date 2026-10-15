@@ -1,0 +1,11 @@
+Script started on 2026-10-15 13:36:08-04:00 [TERM="xterm-color" TTY="/dev/pts/1" COLUMNS="100" LINES="12"]
+[?2004h]0;theia@theiadocker-shrutihanega: /home/project/final_project[01;32mtheia@theiadocker-shrutihanega[00m:[01;34m/home/project/final_project[00m$ [7mpython3 -m unittest -v test_emotion_dete[m[7mc[m[7mction[m[A]0;theia@theiadocker-shrutihanega: /home/project/final_project[01;32mtheia@theiadocker-shrutihanega[00m:[01;34m/home/project/final_project[00m$ python3 -m unittest -v test_emotion_detection
+[?2004l
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+[?2004h]0;theia@theiadocker-shrutihanega: /home/project/final_project[01;32mtheia@theiadocker-shrutihanega[00m:[01;34m/home/project/final_project[00m$ [K[7mexit[mexit
+[?2004lexit
+
+Script done on 2026-10-15 13:36:30-04:00 [COMMAND_EXIT_CODE="0"]
